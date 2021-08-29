@@ -170,7 +170,7 @@ input#pullDown::-moz-range-thumb {
 
 .menu > p {
   font-size: 1.7rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Monospace;
   text-align: center;
   display: none;
   color: #eee;
