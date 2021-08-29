@@ -16,6 +16,9 @@ body {
   background-attachment: fixed;
   position: relative;
   z-index: -4;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 .openClosed {
   width: 100%;
