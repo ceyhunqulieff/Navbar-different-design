@@ -16,7 +16,7 @@ pullDown.oninput = function () {
     menuArray.forEach((element) => {
       element.style.display = 'inline-block';
     });
-  } else if (pullDown.value <= 15) {
+  } else if (pullDown.value <= 0) {
     alert.innerText = 'Qoruyucu bağlandı!';
     alert.style.display = 'block';
     setTimeout(() => {
