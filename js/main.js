@@ -9,6 +9,7 @@ pullDown.oninput = function () {
   if (pullDown.value >= 100) {
     alert.innerText = 'Qoruyucu açıldı!';
     alert.style.display = 'block';
+    alert.style.backgroundColor = 'green';
     setTimeout(() => {
       alert.style.display = 'none';
     }, 3000);
@@ -19,6 +20,7 @@ pullDown.oninput = function () {
   } else if (pullDown.value <= 0) {
     alert.innerText = 'Qoruyucu bağlandı!';
     alert.style.display = 'block';
+    alert.style.backgroundColor = 'red';
     setTimeout(() => {
       alert.style.display = 'none';
     }, 3000);
