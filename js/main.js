@@ -1,6 +1,6 @@
 'use strict';
 const pullDown = document.getElementById('pullDown');
-// const menu = document.getElementById('menu');
+const menu = document.getElementById('menu');
 const alert = document.querySelector('.alert');
 const menuArray = document.querySelectorAll('.menu > *');
 // const menuCategory = document.querySelectorAll('.menu > ul.items > li');
@@ -15,7 +15,7 @@ pullDown.oninput = function () {
     }, 3000);
   } else if (pullDown.value >= 70) {
     menuArray.forEach((element) => {
-      element.style.display = 'inline-block';
+      element.style.display = 'flex';
     });
   } else if (pullDown.value <= 0) {
     alert.innerText = 'Qoruyucu bağlandı!';
